@@ -1,0 +1,36 @@
+header button{
+    float: right;
+    margin:50px;
+}
+
+header .logo{
+    float: left;
+    width:150px;
+}
+
+header ul{
+   display: inline-block;
+    list-style:none;
+}
+
+header ul li{
+   display: inline-block;
+   padding:50px;
+
+}
+
+header{
+    background-color:lightgrey;
+}
+
+#map {
+
+    width:1000px;
+    height:800px;
+    margin:auto;
+}
+
+#hotspot {
+    height:50px;
+    margin:auto;
+}
