@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Admin Map</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="admin.css">
+        <script src='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js'></script>
+        <script src="admin.js" defer></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css' rel='stylesheet' />
+
+    </head>
+
+    <body>
+
+        <header>
+            <a href="/admin.html"><img class="logo" src="/logo.png" alt="COVID Radar"/></a>
+            <a class="menu" href="admin_map.html">Map</a>
+            <a class="menu" href="admin_history.html">History</a>
+            <a class="menu">Signup</a>
+            <button>Profile</button>
+        </header>
+
+        <div class="container">
+            <button id="hotspot">New Hotspot</button>
+            <div id='map'></div>
+        </div>
+
+        <script>
+            mapboxgl.accessToken = 'pk.eyJ1Ijoia2V4aW40NTkwIiwiYSI6ImNrb25vYnB6ajAydXgyeG9rd25hN3JldGoifQ.4lKvX-MkCBB6OATp3lhCWg';
+            var map = new mapboxgl.Map({
+            container: 'map', // container ID
+            style: 'mapbox://styles/mapbox/streets-v11', // style URL
+            center: [138.6007, -34.9285], // starting position [lng, lat]
+            zoom: 10 // starting zoom
+            });
+        </script>
+    </body>
+
+</html>

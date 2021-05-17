@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header button{
+    float: right;
+    margin: 25px;
+    height: 40px;
+}
+
+header .logo{
+    float: left;
+    width: 90px;
+}
+
+header .menu{
+    display: inline-block;
+    list-style:none;
+    padding:35px;
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    background-color:lightgrey;
+}
+
+header a:hover {
+    background-color: green;
+}
+
+#map {
+
+    width:100%;
+    height:800px;
+    margin: 20px auto 20px;
+}
+
+#hotspot {
+    margin-left: 50%;
+    margin-top: 20px;
+    height:50px;
+    position: absolute;
+    z-index: 1;
+}
+
+.container {
+    position: relative;
+}
+
+.buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#u {
+    height: 50px;
+    width: 100px;
+}
+
+#v {
+    height: 50px;
+    width: 100px;
+}
+
+button:hover {
+    background-color: green;
+}
+
+.user {
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+}
+
+.venue {
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+}
+
+.featured {
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
