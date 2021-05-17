@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Admin History</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="admin.css">
+        <script src="admin.js" defer></script>
+
+    </head>
+
+    <body>
+
+        <header>
+            <a href="admin.html"><img class="logo" src="/logo.png" alt="COVID Radar"/></a>
+            <a class="menu" href="admin_map.html">Map</a>
+            <a class="menu" href="admin_history.html">History</a>
+            <a class="menu">Signup</a>
+            <button>Profile</button>
+        </header>
+
+        <div class="buttons">
+            <button id='u' onclick="showUser()">Users</button>
+            <button id='v' onclick="showVenue()">Venues</button>
+        </div>
+
+        <div class="user">
+            <input type="text" name="search" placeholder="Enter a name...">
+            <button id="search">Search</button>
+            <div class="featured">
+                <hr>
+                <h2>Recent Cases</h2>
+                <hr>
+            </div>
+        </div>
+
+        <div class="venue">
+            <input type="text" name="search" placeholder="Enter a location...">
+            <button id="search">Search</button>
+            <div class="featured">
+                <hr>
+                <h2>Recent Hotspots</h2>
+                <hr>
+            </div>
+        </div>
+
+    </body>
+
+</html>
